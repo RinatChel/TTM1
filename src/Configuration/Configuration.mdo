@@ -45,5 +45,6 @@
   </languages>
   <commonPictures>CommonPicture.Штрихкод</commonPictures>
   <roles>Role.Расш1_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.ra_ПечатьНаСервере</commonModules>
   <documents>Document.ЗаказНаряд</documents>
 </mdclass:Configuration>
