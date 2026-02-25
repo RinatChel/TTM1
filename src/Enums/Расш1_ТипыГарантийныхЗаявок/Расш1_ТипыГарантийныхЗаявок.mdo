@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="784b0d60-8d23-4a63-848c-44729d56072a">
+  <producedTypes>
+    <refType typeId="68a83d1f-cceb-4bd8-945b-162bea96848e" valueTypeId="4ff61544-77c6-49bb-a30f-69232c91a962"/>
+    <listType typeId="6ec77048-5bf9-46d1-93c6-69c56391d072" valueTypeId="9c7f2a62-4ff9-461c-90d2-809c6c8ee27f"/>
+    <managerType typeId="d38f4fbe-7566-4b96-b6d0-1757b2610830" valueTypeId="1895abfb-824b-47b2-b42b-fec0b74f80fd"/>
+  </producedTypes>
+  <name>Расш1_ТипыГарантийныхЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы гарантийных заявок</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c2085c24-4dc5-457a-b924-ca6527836b02">
+    <name>ГарантияНаАвтомобиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантия на автомобиль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98c9305c-8340-49b4-bbdd-14818e850f50">
+    <name>ГарантияДоПередачиКлиенту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантия до передачи клиенту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e4b921b7-5b26-4c81-a681-d14b48cdbc72">
+    <name>АкцияНаАвтомобиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акция на автомобиль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35757951-89f3-406b-ba6a-0edd72db756d">
+    <name>АкцияДоПередачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акция до передачи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5faa015-624e-49b1-952e-8dad8c34833b">
+    <name>ГарантияНаЛак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантия на лак</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b432300d-d07c-4baf-a467-d76d6654d3b0">
+    <name>ГарантияНаЛакДоПередачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантия на лак до передачи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1cf17579-50ec-4d9c-a26d-3a2aa76eefa3">
+    <name>ГарантияНаОтсутствиеКоррозии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантия на отсутствие коррозии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dcc5474a-9492-4970-88fb-60e622edb9c6">
+    <name>ГарантияНаДетальУстановленнуюНаАвтомобиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантия на деталь установленную на автомобиль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a20d715-9022-4363-bf05-e1b7e84d68a4">
+    <name>ГарантияНаАвтомобильСоСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантия на автомобиль со склада</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba9eff60-a772-49e4-81e8-0c5329b42217">
+    <name>ГарантияНаДетальАвтомобильДругойМарки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантия на деталь автомобиль другой марки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb937cfb-272b-47e4-962f-8cf845809e20">
+    <name>ГарантияНаАксессуарУстановленныйНаАвтомобиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантия на аксессуар установленный на автомобиль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8fd9d592-9e58-4656-a139-0a487a1c9c69">
+    <name>ГарантияНаАксессуарСоСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантия на аксессуар со склада</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="113536f6-885b-41d2-8095-e9b196498c83">
+    <name>ГарантияНаАксессуарДругаяМарка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантия на аксессуар другая марка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e52e95bf-c0d1-4fdf-9192-c07ef996f391">
+    <name>ПостГарантия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пост гарантия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b8a348b-12ff-4794-9bd5-ddda9407f94e">
+    <name>ПостГарантияНаПовреждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пост гарантия на повреждения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b411d31-9ef7-441e-82e3-416693c34a78">
+    <name>ПостГарантияИмпортер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пост гарантия импортер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da5c33c0-5d00-4e7a-af75-2c5b161f750b">
+    <name>ПрограммаDealerWmpowerment</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программа dealer wmpowerment</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="381e7c7c-770b-43c6-998d-b638812c3f65">
+    <name>МобильностьИмпортера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильность импортера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3c07b510-8225-4d49-bc9d-408d84c29870">
+    <name>РасширеннияГарантияПроизводителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенния гарантия производителя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="18205763-a8e0-4bda-b869-2175849aa0e7">
+    <name>СпециальныйВидГарантии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специальный вид гарантии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1a4de62-8b16-43bd-ba79-a202873ca36e">
+    <name>ГарантияHONGQI</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантия HONGQI</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

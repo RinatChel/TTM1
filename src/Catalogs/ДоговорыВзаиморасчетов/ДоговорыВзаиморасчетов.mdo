@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4341e4c2-fbd5-4683-9b06-3e11d787dc92" extendedConfigurationObject="02a9b944-9738-4544-8393-527cb0e71f9f">
+  <producedTypes>
+    <objectType typeId="ccf090f2-607a-4e0f-b65f-b626f6453d3c" valueTypeId="81ffef62-8916-448c-921e-976ad8556f5e"/>
+    <refType typeId="5ac3cdaf-81f9-4d21-abd8-ec972c543ba8" valueTypeId="dad9ea00-7caa-48f7-857e-7edd915f36bc"/>
+    <selectionType typeId="b02c07d7-ab9a-4bcb-9a94-bba2fc1c11cb" valueTypeId="44b783eb-0357-4231-b646-4784fc5ee892"/>
+    <listType typeId="d3f20f26-8e66-4345-9301-4817a7bf3d16" valueTypeId="6c0c4bc3-4c19-41d8-bdd5-902c6a9e5cb6"/>
+    <managerType typeId="f3ffafbb-ce4b-4c27-9b7d-eead190b7339" valueTypeId="e53a2882-154f-42b3-af0e-ab499d7038d6"/>
+  </producedTypes>
+  <name>ДоговорыВзаиморасчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <checkUnique>true</checkUnique>
+</mdclass:Catalog>

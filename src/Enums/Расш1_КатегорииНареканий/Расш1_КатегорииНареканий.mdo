@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11e4c661-bfc7-4299-b9d0-50e13e7cab44">
+  <producedTypes>
+    <refType typeId="a2052043-d7cc-4e97-a24e-9a20407aa01b" valueTypeId="8252466e-279c-402c-9718-2842d6d0fa27"/>
+    <listType typeId="12048601-b66e-4a82-ac9b-0f8c23fa0d81" valueTypeId="09bb00c2-a455-47b6-93f1-daff9299dd60"/>
+    <managerType typeId="2980e442-c8cc-4546-943e-8e32db632506" valueTypeId="0bc68808-c065-44a7-94e8-dbe6b8a31a59"/>
+  </producedTypes>
+  <name>Расш1_КатегорииНареканий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории нареканий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="79c9399e-cca6-4d8f-a776-42dcaa2374e7">
+    <name>КомпетентностьПерсонал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компетентность персонал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0eb6e36b-fcfd-4ceb-a84e-305f84c5ab25">
+    <name>ПроцессПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процесс продаж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="01f93af7-5661-4a6a-9e99-49b2334b75e4">
+    <name>СрокПоставкиНовогоАвто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок поставки нового авто</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bfde9864-0bb0-4c11-aeb2-b9466949ab2e">
+    <name>ПроцессыПродажАвтоСПробегом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процессы продаж авто с пробегом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b68564b8-7979-4711-9a20-ee41cad33544">
+    <name>ВзаимодействиеСEuropAssistans</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаимодействие с europ assistans</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="abda1bc2-06c1-4e6c-9c33-344f33ce0297">
+    <name>ПроцессыCервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процессы cервиса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c7bda7d2-634a-43a1-bd4f-927332787a7d">
+    <name>СрокиРемонта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сроки ремонта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6c36d7c5-9e37-4cd2-8b11-6dd6694de833">
+    <name>СрокПоставкиЗЧ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок поставки ЗЧ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="56933700-7169-4620-b6c8-e57318c1ba33">
+    <name>ГарантияМобильности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантия мобильности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6497be2e-7b94-4c7b-af06-ef25e544f0d2">
+    <name>Документация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1005dc56-867f-4db2-9c18-a4e3d4252d7b">
+    <name>Благодарность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Благодарность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="50e5cd0e-f392-459e-b70f-c09545541707">
+    <name>Другое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

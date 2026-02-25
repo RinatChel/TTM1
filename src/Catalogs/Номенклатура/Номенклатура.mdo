@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ad4e14ad-e02e-42e3-bea4-b56fd1ee9731" extendedConfigurationObject="245703de-75a0-4593-bfe2-cd0f4d3a8a06">
+  <producedTypes>
+    <objectType typeId="cf331fca-803a-4ac0-94de-c2b9682f6854" valueTypeId="9ae435f9-ec10-42e5-8e50-4e0772c756f7"/>
+    <refType typeId="d6bdd7e5-fa61-453f-98ed-116db26a799f" valueTypeId="ae6f1ff2-dc67-408f-8545-f9ff3a5cc60a"/>
+    <selectionType typeId="d7027ea7-7de1-4497-8de1-bcaa9b0ca725" valueTypeId="b6cdf91a-8930-4c1c-8038-018d6c71b131"/>
+    <listType typeId="7aca1636-69cf-46d8-9a54-834ad68fca92" valueTypeId="e74300e8-f366-4b2b-8c68-4a49e1fce96c"/>
+    <managerType typeId="b24d0e51-3255-4eaf-95f4-241390f155d7" valueTypeId="b5c3884e-30f7-4f95-94d0-4bd9c22cdf62"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <checkUnique>true</checkUnique>
+  <attributes uuid="8c5ff3c1-64a4-4cf5-b823-0f12ab38cd3e">
+    <name>Расш1_МинимальныйЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальный запас</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3dd28c22-0ea1-43a7-a70a-fc048c5ab16f">
+    <name>Расш1_ОгрСрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Огр срок</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="36a4d348-a67d-419d-ac15-21bb1cfcc7b1">
+    <name>Расш1_ГомогеннаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гомогенная группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Расш1_ГомогенныеГруппы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1b950d78-a523-4823-a4f5-ecc83d574235">
+    <name>Расш1_ABC</name>
+    <synonym>
+      <key>ru</key>
+      <value>ABC</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="afcb9bcc-dcf0-4427-93df-c374de85b6da">
+    <name>Расш1_C0</name>
+    <synonym>
+      <key>ru</key>
+      <value>C0</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="721e90f4-80e3-4e58-8290-b03de58093be">
+    <name>Расш1_Раскрасить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раскрасить</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="79c05a97-edde-4302-a792-a32623fdc74d">
+    <name>Расш1_Поверка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поверка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="edb2459f-c485-428b-bba5-6eab8edf55bf">
+    <name>Расш1_СрокПоверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок поверки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

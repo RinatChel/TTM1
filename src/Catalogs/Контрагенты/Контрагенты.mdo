@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="49765088-fc95-4248-9280-8dbcb7042cf0" extendedConfigurationObject="3722ab0c-1924-4975-9ddf-3f3a06657785">
+  <producedTypes>
+    <objectType typeId="e0b8499b-fda3-4158-9e7d-8d5fbdddae3d" valueTypeId="3cc8e974-7890-4a25-8840-df01c6d15d58"/>
+    <refType typeId="43cefc53-f62b-4080-b679-39fa8a49960d" valueTypeId="54f3384b-ced2-46e1-9a14-d4b0fcd8181c"/>
+    <selectionType typeId="1bef189a-a9cc-44bf-b457-b93d6b3937d2" valueTypeId="f7aa9f95-126f-4604-badd-fd4dba28f90a"/>
+    <listType typeId="9c93986b-edfd-4770-a3ef-a1f319794333" valueTypeId="475e0909-e6d4-4477-a98d-8de5be3c0bcd"/>
+    <managerType typeId="3d80b09f-3ec5-459a-9d6e-2f24fcc1a82b" valueTypeId="996a7b3f-b0d9-4a7d-a525-9d4ea9d1f2f7"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <checkUnique>true</checkUnique>
+  <attributes uuid="af1af13c-83ca-4682-80c2-9c3c5c5c2abd">
+    <name>Расш1_Транзит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транзит</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

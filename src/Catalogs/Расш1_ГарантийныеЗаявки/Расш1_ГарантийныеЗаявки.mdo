@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73926189-dc34-42e9-bbcc-fb8ac2575a27">
+  <producedTypes>
+    <objectType typeId="22b288b8-99da-4da4-a8d0-270706599971" valueTypeId="289914eb-bfbb-4abd-b600-be6119b4a375"/>
+    <refType typeId="a6f9cd0c-9e4a-4733-9da6-d16b98dc4333" valueTypeId="bf975e58-aeab-42fd-8bcd-989a9c2247c3"/>
+    <selectionType typeId="da92881c-a75d-4702-b714-ede9b4aaeac2" valueTypeId="640a1b84-d22d-415e-bab3-ea43b387bf3c"/>
+    <listType typeId="67bb97a7-5e87-4d34-9cba-33faf2fdfad8" valueTypeId="896d56cb-60e7-4150-95b9-15c9d91f9e96"/>
+    <managerType typeId="c60c309c-6906-45f3-a997-cb7f17c547d6" valueTypeId="04a71498-08f4-442a-b537-9468e1088698"/>
+  </producedTypes>
+  <name>Расш1_ГарантийныеЗаявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гарантийные заявки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Расш1_ГарантийныеЗаявки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Расш1_ГарантийныеЗаявки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

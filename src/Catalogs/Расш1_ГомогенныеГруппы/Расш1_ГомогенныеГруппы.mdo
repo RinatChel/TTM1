@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6211d04-2523-47bd-ad25-dea8c2030280">
+  <producedTypes>
+    <objectType typeId="2770749a-cafb-47f8-b83e-3fb2804ae91f" valueTypeId="1e8d38ef-0526-4424-8a33-542db626da61"/>
+    <refType typeId="40f5a5e8-f77f-4214-91fb-3cbbcd0c4feb" valueTypeId="c146016d-e8fc-457a-a6cf-25603f32d54a"/>
+    <selectionType typeId="274fda9d-3014-41ac-b181-c0eeb5bdf2b3" valueTypeId="7fe88865-fa0a-473b-9398-bf3435bf3092"/>
+    <listType typeId="0427a4f2-1fa8-4b92-8f38-9a543eaa4e99" valueTypeId="e953c54a-6e10-4566-a453-28b7a7f7a6ca"/>
+    <managerType typeId="4139ba01-1b5b-4d65-b7dd-99e3ee567eef" valueTypeId="2d516051-8836-4d99-b8a8-4e5b9c5a50ac"/>
+  </producedTypes>
+  <name>Расш1_ГомогенныеГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гомогенные группы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Расш1_ГомогенныеГруппы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Расш1_ГомогенныеГруппы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

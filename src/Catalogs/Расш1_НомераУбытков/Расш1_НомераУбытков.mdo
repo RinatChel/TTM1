@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83d12d70-844d-40ca-8333-27d35ef30ebc">
+  <producedTypes>
+    <objectType typeId="8e5437d1-a694-4e9a-8449-edc357e63c5b" valueTypeId="f6e01f7e-98f6-452b-a242-737c97f6f8ea"/>
+    <refType typeId="3df4c931-bc74-4486-80cd-3889254f6ee6" valueTypeId="4a96619a-e12d-43ce-946b-5005dca7206d"/>
+    <selectionType typeId="b2e59e5c-6bf2-406d-ae21-48f75896c65c" valueTypeId="360bed8f-7f5c-4197-affd-0a2fd0adc240"/>
+    <listType typeId="9800183b-b883-4f11-b634-8c432d507e62" valueTypeId="70cd2cb5-3669-484d-94b8-3caeb636d2aa"/>
+    <managerType typeId="82af85ae-e4ef-45a7-9971-8431ce05e239" valueTypeId="9d45315d-5607-4125-8a64-4d3cc3685a11"/>
+  </producedTypes>
+  <name>Расш1_НомераУбытков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номера убытков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Расш1_НомераУбытков.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Расш1_НомераУбытков.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

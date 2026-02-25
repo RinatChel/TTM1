@@ -46,5 +46,18 @@
   <commonPictures>CommonPicture.Штрихкод</commonPictures>
   <roles>Role.Расш1_ОсновнаяРоль</roles>
   <commonModules>CommonModule.ra_ПечатьНаСервере</commonModules>
+  <catalogs>Catalog.ДоговорыВзаиморасчетов</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Расш1_ГарантийныеЗаявки</catalogs>
+  <catalogs>Catalog.Расш1_ГомогенныеГруппы</catalogs>
+  <catalogs>Catalog.Расш1_НомераУбытков</catalogs>
+  <catalogs>Catalog.Расш1_ТипыРемонта</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
   <documents>Document.ЗаказНаряд</documents>
+  <documents>Document.ЗаказПокупателя</documents>
+  <documents>Document.Расш1_АктГарантии</documents>
+  <enums>Enum.Расш1_ВидыСогласований</enums>
+  <enums>Enum.Расш1_КатегорииНареканий</enums>
+  <enums>Enum.Расш1_ТипыГарантийныхЗаявок</enums>
 </mdclass:Configuration>

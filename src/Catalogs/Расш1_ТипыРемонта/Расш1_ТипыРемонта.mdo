@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e91b8ffb-8548-4c7e-8e2a-7aa003df8fe3">
+  <producedTypes>
+    <objectType typeId="5b98798b-26c6-4607-aefb-8c5a319ec556" valueTypeId="8198b61e-2555-4c3c-9fa3-d72640e75482"/>
+    <refType typeId="f9b9e4b6-0b0f-4032-afb3-af2f37d8e652" valueTypeId="bd96eec4-443e-43a1-803f-02b49284cf60"/>
+    <selectionType typeId="86e158d4-2367-41df-b356-bc7fe98d9adf" valueTypeId="303a7b0b-6b76-4377-aebb-b248f8f45f7c"/>
+    <listType typeId="ba0f1622-1278-44c2-afb2-021abe01901e" valueTypeId="bf462135-f441-4ab3-8294-4421d2da5539"/>
+    <managerType typeId="f60c9a2d-9e06-4368-ad0b-468aef0d9a77" valueTypeId="01121428-a6eb-4455-b00e-267daa25058f"/>
+  </producedTypes>
+  <name>Расш1_ТипыРемонта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ремонта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Расш1_ТипыРемонта.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Расш1_ТипыРемонта.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="922cd278-edc5-43e0-ab8f-7c007f5fa08d">
+    <name>Актуальность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актуальность</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

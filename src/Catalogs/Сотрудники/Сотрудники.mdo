@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="75aa79c2-4be6-4987-b6eb-0b83b9ac8ffd" extendedConfigurationObject="bfd58d86-34dd-4319-a1e6-3380e2283df4">
+  <producedTypes>
+    <objectType typeId="7dd47909-7118-4acc-85f7-c14b03a3afa6" valueTypeId="f2b46226-9c19-4190-80d7-48aad85019db"/>
+    <refType typeId="c9fe2460-85b7-4a2b-b53e-8af08de41b16" valueTypeId="f3727797-8ce9-4ea9-93d9-cb9337a9f276"/>
+    <selectionType typeId="f3af8e2e-e284-4cb4-b689-0ce57b45d296" valueTypeId="8f43e2b1-eab5-467c-80c5-e0fc1f0ef274"/>
+    <listType typeId="18e6f82f-e74d-4d90-9907-388a3feff70b" valueTypeId="9539f467-c9c6-460f-a657-2c7374d9a013"/>
+    <managerType typeId="9cf99eaf-f399-4f17-b77d-7a59e5e4a761" valueTypeId="82da359e-f93f-4bfe-8f0f-c217ee534cc2"/>
+  </producedTypes>
+  <name>Сотрудники</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <checkUnique>true</checkUnique>
+</mdclass:Catalog>

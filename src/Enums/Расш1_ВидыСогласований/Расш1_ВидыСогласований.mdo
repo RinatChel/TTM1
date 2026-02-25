@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef6ca969-135c-47b5-8acb-46dbb06e668d">
+  <producedTypes>
+    <refType typeId="8784918f-7bbb-42bc-90d8-f3eec2847e48" valueTypeId="ab81b638-400d-46b4-8724-0e0109d09525"/>
+    <listType typeId="aa717c3c-234c-4da2-90aa-7473cecd5524" valueTypeId="c8b127eb-9f11-4796-93e1-5eb1ef8167d7"/>
+    <managerType typeId="061aa218-c65b-48c7-ad9d-22c4aac57dde" valueTypeId="c08a43a3-a6ea-40ad-844e-df0ea51cd894"/>
+  </producedTypes>
+  <name>Расш1_ВидыСогласований</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды согласований</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="841f576c-f0e5-4b0f-8bd7-8f73db43f6dd">
+    <name>Устно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3939211-73ef-4573-844c-a0a8f3656f3c">
+    <name>ПоТелефону</name>
+    <synonym>
+      <key>ru</key>
+      <value>По телефону</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9209788d-4393-4fb8-8dae-247235882a05">
+    <name>ПоФаксу</name>
+    <synonym>
+      <key>ru</key>
+      <value>По факсу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="72786740-cb32-4159-8683-e3e0241d7661">
+    <name>ПоЭлектроннойПочте</name>
+    <synonym>
+      <key>ru</key>
+      <value>По электронной почте</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
