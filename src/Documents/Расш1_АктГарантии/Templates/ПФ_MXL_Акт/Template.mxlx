@@ -173,7 +173,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Настоящим актом ООО "ТТМ-1"в лице Директора Крутасовой Марии Владимировны, действующей на основании Устава, с одной стороны, и ООО "ФОЛЬСКВАГЕН Груп Рус"в лице Генерального г-на Штефана Меха, действующего на основании Устава, с другой стороны, подтверждают факт оказания услуг по гарантийному ремонту автомобилей клиентов по нижеследующим заявкам (счет-проформа № [НомерСчетаПроформы])</v8:content>
+							<v8:content>Настоящим актом ООО "ТТМ-1"в лице Директора Крутасовой Марии Владимировны, действующей на основании Устава, с одной стороны, и ООО "АГР"в лице Генерального директора г-на Карагина Андрея Николаевича, действующего на основании Устава, с другой стороны, подтверждают факт оказания услуг по гарантийному ремонту автомобилей клиентов по нижеследующим заявкам (счет-проформа № [НомерСчетаПроформы])</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -827,7 +827,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ООО "ФОЛЬКСВАГЕН Груп Рус"</v8:content>
+							<v8:content>ООО "АГР"</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1197,7 +1197,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ООО "ФОЛЬКСВАГЕН Груп Рус"</v8:content>
+							<v8:content>ООО АГР"</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1303,13 +1303,8 @@
 			</c>
 			<c>
 				<c>
-					<f>34</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ДатаДокумента</v8:content>
-						</v8:item>
-					</tl>
+					<f>35</f>
+					<parameter>ДатаДокумента</parameter>
 				</c>
 			</c>
 		</row>
@@ -1353,7 +1348,7 @@
 	<rowsItem>
 		<index>41</index>
 		<row>
-			<formatIndex>35</formatIndex>
+			<formatIndex>36</formatIndex>
 			<c>
 				<c>
 					<f>29</f>
@@ -1361,7 +1356,7 @@
 			</c>
 			<c>
 				<c>
-					<f>36</f>
+					<f>37</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1385,11 +1380,6 @@
 			</c>
 			<c>
 				<c>
-					<f>36</f>
-				</c>
-			</c>
-			<c>
-				<c>
 					<f>37</f>
 				</c>
 			</c>
@@ -1408,12 +1398,17 @@
 					<f>40</f>
 				</c>
 			</c>
+			<c>
+				<c>
+					<f>41</f>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
 		<index>43</index>
 		<row>
-			<formatIndex>41</formatIndex>
+			<formatIndex>42</formatIndex>
 			<c>
 				<c>
 					<f>29</f>
@@ -1421,7 +1416,7 @@
 			</c>
 			<c>
 				<c>
-					<f>42</f>
+					<f>43</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1611,7 +1606,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>_________________/Никитина Л.А.</v8:content>
+							<v8:content>_________________/Горбунова А.В.</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1719,7 +1714,7 @@
 		<f>8</f>
 	</rightFooter>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>43</defaultFormatIndex>
+	<defaultFormatIndex>44</defaultFormatIndex>
 	<height>51</height>
 	<vgRows>51</vgRows>
 	<merge>
@@ -2062,6 +2057,11 @@
 	<format>
 		<font>3</font>
 		<horizontalAlignment>Right</horizontalAlignment>
+	</format>
+	<format>
+		<font>3</font>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<height>135</height>
