@@ -150,4 +150,39 @@
       <template>Extended</template>
     </extension>
   </templates>
+  <templates uuid="c58ef140-b31b-4413-ac5a-d20b2c9dbdba">
+    <name>Расш_ЗаказНаряд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расш заказ наряд</value>
+    </synonym>
+  </templates>
+  <templates uuid="5acc2407-bdd8-4082-85e9-bc0ff1f6c10d">
+    <name>Расш1_АктВыполненныхРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт выполненных работ</value>
+    </synonym>
+  </templates>
+  <templates uuid="1f2b79db-abaa-4d99-b347-a097ee20c4bc">
+    <name>Расш1_МакетХраненияШин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет хранения шин</value>
+    </synonym>
+  </templates>
+  <templates uuid="cabbb8ca-cca3-4d12-81da-a7ced502cb4e">
+    <name>Расш1_ЛистДиагностики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лист диагностики</value>
+    </synonym>
+  </templates>
+  <templates uuid="81f03cb7-da3c-4b41-80ec-9c79666c95de">
+    <name>Расш1_ДефектовочнаяВедомость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дефектовочная ведомость</value>
+    </synonym>
+  </templates>
 </mdclass:Document>
