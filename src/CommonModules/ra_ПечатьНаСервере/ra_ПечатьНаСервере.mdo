@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d830416-6a2f-418a-a5ef-0dc5cdc9a1ac">
+  <name>ra_ПечатьНаСервере</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ra печать на сервере</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>
